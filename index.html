@@ -3,9 +3,37 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>F4ncyBe4r</title>
+    <title>My First Netlify Site</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            background-color: #f0f0f0;
+            flex-direction: column;
+        }
+        h1 {
+            color: #333;
+        }
+        button {
+            padding: 10px 20px;
+            font-size: 16px;
+            margin-top: 20px;
+        }
+    </style>
 </head>
 <body>
-    <h1>>Welcome to the World of F4ncyBe4r</h1>
+    <h1>Hello World</h1>
+    <p>Welcome to my first Netlify site!</p>
+    <button onclick="displayMessage()">Click Me</button>
+    <script>
+        function displayMessage() {
+            alert('Button clicked!');
+        }
+    </script>
 </body>
 </html>
